@@ -1,0 +1,15 @@
+{
+  "name": "images-rename-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Konrad Romanowski",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.0.2"
+  }
+}

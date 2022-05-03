@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="styles.css">
+  <title>Images-rename-app</title>
+</head>
+<body>
+
+  <main class="wrapper">
+    <section class="select__directory">
+      <h1>Select directory with images</h1>
+      <form class="select__directory__form" action="">
+        <input id="directory" class="directory" type="text" spellcheck="false">
+        <button class="browse__button">  
+          ...
+        </button>
+      </form>
+    </section>
+
+    <section class="select__name">
+      <h1>Enter a name for the images series</h1>
+      <input id="file__name" class="file__name" type="text" spellcheck="false">
+    </section>
+
+    <section class="select__separator">
+      <h1>Select separator</h1>
+      <form action="" id="separator" class="select__separator__form">
+
+        <label for="separator__space">
+          <input type="radio" id="separator__space" value=" " name="separator" checked>
+          <span>space</span>
+        </label>
+
+        <label for="separator__underscore">
+          <input type="radio" id="separator__underscore" value="_" name="separator">
+          <span>underscore</span>
+        </label>
+
+        <label for="separator__dash">
+          <input type="radio" id="separator__dash" value="-" name="separator">
+          <span>dash</span>
+        </label>
+
+        <label for="separator__hashtag">
+          <input type="radio" id="separator__hashtag" value="#" name="separator">
+          <span>hashtag</span>
+        </label>
+
+        <label for="separator__none">
+          <input type="radio" id="separator__none" value="" name="separator">
+          <span>(none)</span>
+        </label>
+      </form>
+    </section>
+
+    <section class="horizontal__line">
+      <div class="line"></div>
+    </section>
+
+    <section class="preview">
+      <h1>File names preview</h1>
+      <div class="file__name__preview">
+        <span>Obraz_001,</span>
+        <span>Obraz_002,</span>
+        <span>Obraz_003</span>
+      </div>
+    </section>
+
+    <section class="start__button__wrapper">
+      <button id="start__button" class="start__button">Start</button>
+    </section>
+  </main>
+  
+</body>
+</html>
